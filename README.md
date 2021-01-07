@@ -1,6 +1,10 @@
 ## Hello, Hola, Привет 👋
 
-**I'm Nikita, <img src="/svg/python.svg" alt="python" width=20 height=20 style="padding-top: 2px;"> Python Middle Developer from Russian Federation**<br>
+<style>
+  .python {fill: blue;}
+</style>
+
+**I'm Nikita, <img src="/svg/python.svg" class="python" width=20 height=20> Python Middle Developer from Russian Federation**<br>
 There are some aspects which I'm working on:
 
 * 🧠 **Deep Learning and Machine Learning** (`Tensorflow, Keras, Pytorch, Jupyter`)
