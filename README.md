@@ -1,9 +1,5 @@
 ## Hello, Hola, Привет 👋
 
-<style>
-  .python {fill: blue;}
-</style>
-
 **I'm Nikita, <img src="/svg/python.svg" class="python" width=20 height=20> Python Middle Developer from Russian Federation**<br>
 There are some aspects which I'm working on:
 
