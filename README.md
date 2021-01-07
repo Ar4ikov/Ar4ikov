@@ -1,16 +1,14 @@
-### Hi there 👋
+## Hello, Hola, Привет 👋
 
-<!--
-**Ar4ikov/Ar4ikov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Nikita, Python Middle Developer from Russian Federation<br>
+There are some aspects which I'm working on:
 
-Here are some ideas to get you started:
+* 🧠 Deep Learning and Machine Learning (Tensorflow, Keras, Pytorch)
+* 🌐 Web Backend development (Flask, asyncio, jinja2)
+* 🐳 DevOps (Docker)
+* 🧻 Lite Software develompent (API Wrappers, scripting)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Ar4ikov's github stats](https://github-readme-stats.vercel.app/api?username=Ar4ikov&hide=contribs&count_private=true&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&hide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ar4ikov&layout=compact&theme=gruvbox&hide_border=truehide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff&title_color=ffffff&font_size=20)
+
+You also can check public repos that pinned below this text
