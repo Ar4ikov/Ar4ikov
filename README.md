@@ -4,7 +4,7 @@
 There are some aspects which I'm working on:
 
 * <img src="/svg/tensorflow-color.svg" width=20 height=20><img src="/svg/keras-color.svg" width=20 height=20> **Deep Learning and Machine Learning** (`Tensorflow, Keras, Pytorch, Jupyter`)
-* 🌐<img src="/svg/flask-color.svg" width=20 height=20> **Web Backend development** (`Flask, asyncio, jinja2`)
+* 🌐<img src="/svg/flask-color.svg" width=20 height=20> **Web Backend development** (`Flask, fastapi, uvicorn, asyncio, jinja2`)
 * 🐳 **DevOps** (`Docker`)
 * 🧻 **Lite Software develompent** (`API Wrappers, scripting`)
 
