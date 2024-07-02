@@ -31,7 +31,7 @@ Here are some aspects I'm currently working on:
 ## Other Notable Projects
 
 * **Document Automation System**: Developed an OCR and LLM pipeline for automatic document processing in a logistics company (Not published on GitHub)
-* **Chtec**: A technological prototype for speech synthesis using [StyleTTS 2](https://arxiv.org/abs/2306.07691) for voice cloning (Not published on GitHub)
+* **Chtec**: A technological prototype for speech synthesis using [StyleTTS 2](https://arxiv.org/abs/2306.07691) for voice cloning in russian language (Not published on GitHub)
 
 ![](https://github-readme-stats.vercel.app/api?username=Ar4ikov&hide=contribs&count_private=true&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&hide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ar4ikov&layout=compact&theme=gruvbox&hide_border=truehide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff&title_color=ffffff&font_size=20)
