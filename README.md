@@ -1,6 +1,6 @@
 ## Hello, Hola, Привет 👋
 
-**I'm Nikita, <img src="/svg/python-color.svg" width=20 height=20> Python Developer and Bachelor of Computer Science in Don State Technical University from Russian Federation**<br><br>
+**I'm Nikita, <img src="/svg/python-color.svg" width=20 height=20> Python Developer and Bachelor of Computer Science at Don State Technical University from Russian Federation**<br><br>
 HuggingFace profile: [@Ar4ikov](https://huggingface.co/Ar4ikov) (clickable)<br>
 Kaggle profile: [@Ar4ikov](https://kaggle.com/ar4ikov) (clickable)
 
