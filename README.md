@@ -14,7 +14,7 @@ Python most days. GLSL on the days a path tracer refuses to converge.
 ### What I actually work on
 
 **Speech, emotion, and voice.** Most of my research time goes into audio and multimodal models —
-recognising emotion from speech in real time, and synthesising Russian speech that doesn't sound
+recognising emotion from speech in real time, optimizing speech recognition in real time and synthesising Russian speech that doesn't sound
 like a 2015 TTS demo. This is the part of ML I keep coming back to: the data is messy, the labels
 are subjective, and the evaluation is genuinely hard. Fine-tuning transformers on it is the easy half.
 
