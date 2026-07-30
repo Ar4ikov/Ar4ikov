@@ -4,7 +4,7 @@ I'm **Nikita** — I train models, and then I build everything that has to exist
 so they actually run for somebody other than me.
 
 BSc in Computer Science, Don State Technical University · Russian Federation.
-Python most days. GLSL on the days a path tracer refuses to converge.
+Python most days.
 
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-@Ar4ikov-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Ar4ikov)
 [![Kaggle](https://img.shields.io/badge/Kaggle-@ar4ikov-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/ar4ikov)
