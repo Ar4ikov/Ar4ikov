@@ -1,45 +1,82 @@
 ## Hello, Hola, Привет 👋
 
-**I'm Nikita, <img src="/svg/python-color.svg" width=20 height=20> Python Developer and Bachelor of Computer Science at Don State Technical University from Russian Federation**<br><br>
-HuggingFace profile: [@Ar4ikov](https://huggingface.co/Ar4ikov) (clickable)<br>
-Kaggle profile: [@Ar4ikov](https://kaggle.com/ar4ikov) (clickable)
+I'm **Nikita** — I train models, and then I build everything that has to exist around them
+so they actually run for somebody other than me.
 
-Here are some aspects I'm currently working on:
+BSc in Computer Science, Don State Technical University · Russian Federation.
+Python most days. GLSL on the days a path tracer refuses to converge.
 
-* <img src="/svg/PyTorch_logo.svg" width=20 height=20><img src="/svg/keras-color.svg" width=20 height=20><img src="/svg/hf-logo.svg" width=20 height=20> **Deep Learning and Machine Learning** 
-  * Frameworks: `PyTorch (and old Keras v2)`
-  * Libraries: `HuggingFace (transformers, datasets, evaluate, accelerate, peft), pandas, sklearn, polars, lightgbm, catboost`
-  * Data Visualization: `seaborn, plotly`
-  * LLM Libraries: `langchain, gigachain`
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-@Ar4ikov-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Ar4ikov)
+[![Kaggle](https://img.shields.io/badge/Kaggle-@ar4ikov-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/ar4ikov)
 
-* 🌐<img src="/svg/fastapi-logo.svg" width=20 height=20><img src="/svg/rabbitmq-logo.svg" width=20 height=20> **Web Backend Development** 
-  * Frameworks: `FastAPI, Pydantic, FastStream`
-  * Brokers: `RabbitMQ`
-  * Databases: `Redis, MySQL, PostgreSQL`
-  * Containers and Deployment: `Docker, Docker Compose, Docker Swarm, Data Version Control`
+---
 
-* 🐳 **DevOps and Production** 
-  * Containerization: `Docker`
-  * Deployment: `Docker Compose, Docker Swarm`
-  * Data and Model Versioning: `Data Version Control`
+### What I actually work on
 
-## Open Projects
+**Speech, emotion, and voice.** Most of my research time goes into audio and multimodal models —
+recognising emotion from speech in real time, and synthesising Russian speech that doesn't sound
+like a 2015 TTS demo. This is the part of ML I keep coming back to: the data is messy, the labels
+are subjective, and the evaluation is genuinely hard. Fine-tuning transformers on it is the easy half.
 
-* **Aniemore**: An open library for real-time speech emotion recognition using a multimodal approach [GitHub Repository](https://github.com/Aniemore/Aniemore)
-* **OpenJourney**: An open-source Discord bot integrating Stable Diffusion models and a custom-trained GPT-2 for image generation prompts [GitHub Repository](https://github.com/Ar4ikov/OpenJourney-discord)
+**LLM pipelines that have to survive contact with production.** OCR in front, an LLM in the middle,
+a document that a real business depends on coming out the other end. The interesting problems there
+aren't prompts — they're retries, idempotency, queue backpressure, versioning the model *and* the
+data together, and what happens at 3 a.m. when the extraction quietly starts returning garbage.
 
-## Other Notable Projects
+**The unglamorous infrastructure underneath.** Async APIs, brokers, containers, deployment.
+I like that a model is only as good as the boring plumbing that keeps it fed and observable, and
+I'd rather own that plumbing than hand it over and hope.
 
-* **Document Automation System**: Developed an OCR and LLM pipeline for automatic document processing in a logistics company (Not published on GitHub)
-* **Chtec**: A technological prototype for speech synthesis using [StyleTTS 2](https://arxiv.org/abs/2306.07691) for voice cloning on russian language (Not published on GitHub)
+**And, currently, ray tracing in Minecraft.** See below — it has nothing to do with the rest of
+this list, which is exactly why it's there.
+
+---
+
+### Open projects
+
+* **[Aniemore](https://github.com/Aniemore/Aniemore)** — an open library for real-time speech
+  emotion recognition using a multimodal approach. Audio and text together, because tone alone
+  lies and words alone lie differently.
+* **[OpenJourney](https://github.com/Ar4ikov/OpenJourney-discord)** — a Discord bot wiring Stable
+  Diffusion to a GPT-2 I trained specifically to write image prompts. Turns out the hard part of
+  image generation is asking for the right thing.
+
+### Built, but living behind an NDA
+
+* **Document Automation System** — an OCR + LLM pipeline processing documents end-to-end for a
+  logistics company. Real throughput, real consequences for getting a number wrong.
+* **Chtec** — a speech-synthesis prototype built on [StyleTTS 2](https://arxiv.org/abs/2306.07691)
+  for voice cloning in Russian. Cloning a voice in a language the model wasn't designed around is
+  where most of the work went.
+
+### Currently building, far outside my usual stack
+
+* **PathVoxels** *(not published yet)* — a path-traced Minecraft shaderpack. Every frame voxelises
+  the world into a GPU buffer and traces lighting against that grid instead of triangles: software
+  DDA traversal with an occupancy hierarchy, ReSTIR reservoir reuse, an SVGF-style denoiser, all in
+  GLSL compute on an 8 GB card. There's a companion Fabric mod alongside it that brings real DLSS to
+  an OpenGL renderer by creating a Vulkan device on the same GPU, exporting images through
+  `VK_KHR_external_memory_win32` and importing them back into GL — with a small C++ JNI shim for NGX.
+  Nothing about this is Python. That's the appeal.
+
+---
+
+### The stack, since you're going to ask
+
+`PyTorch` · `HuggingFace` (transformers / datasets / accelerate / peft) · `pandas` · `polars` ·
+`sklearn` · `lightgbm` · `catboost` · `langchain` · `gigachain` · `langfuse` · `plotly` · `seaborn`
+`FastAPI` · `Pydantic` · `FastStream` · `RabbitMQ` · `Redis` · `PostgreSQL` · `MySQL`
+`Docker` · `Compose` · `Swarm` · `DVC` · `k8s` · `ArgoCD` · `Helm`
+
+Tools are the least interesting thing on a profile, so that's all they get. I pick them up when a
+problem needs them and I'm happy to learn whatever the next problem needs — especially if it comes
+with large-scale infrastructure attached.
+
+---
 
 ![](https://github-readme-stats.vercel.app/api?username=Ar4ikov&hide=contribs&count_private=true&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&hide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ar4ikov&layout=compact&theme=gruvbox&hide_border=truehide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff&title_color=ffffff&font_size=20)
 
 ![](https://komarev.com/ghpvc/?username=Ar4ikov)
 
-I'm always eager to learn new things and work with large-scale infrastructures when such opportunities and requests arise.
-
-You can also check the public repositories pinned below this text.
-
-Thank you and enjoy ❤️
+Pinned repositories are below. Thank you and enjoy ❤️
