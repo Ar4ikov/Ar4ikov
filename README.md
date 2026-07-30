@@ -49,16 +49,6 @@ this list, which is exactly why it's there.
   for voice cloning in Russian. Cloning a voice in a language the model wasn't designed around is
   where most of the work went.
 
-### Currently building, far outside my usual stack
-
-* **PathVoxels** *(not published yet)* — a path-traced Minecraft shaderpack. Every frame voxelises
-  the world into a GPU buffer and traces lighting against that grid instead of triangles: software
-  DDA traversal with an occupancy hierarchy, ReSTIR reservoir reuse, an SVGF-style denoiser, all in
-  GLSL compute on an 8 GB card. There's a companion Fabric mod alongside it that brings real DLSS to
-  an OpenGL renderer by creating a Vulkan device on the same GPU, exporting images through
-  `VK_KHR_external_memory_win32` and importing them back into GL — with a small C++ JNI shim for NGX.
-  Nothing about this is Python. That's the appeal.
-
 ---
 
 ### The stack, since you're going to ask
