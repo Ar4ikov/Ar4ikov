@@ -27,9 +27,6 @@ data together, and what happens at 3 a.m. when the extraction quietly starts ret
 I like that a model is only as good as the boring plumbing that keeps it fed and observable, and
 I'd rather own that plumbing than hand it over and hope.
 
-**And, currently, ray tracing in Minecraft.** See below — it has nothing to do with the rest of
-this list, which is exactly why it's there.
-
 ---
 
 ### Open projects
@@ -55,8 +52,8 @@ this list, which is exactly why it's there.
 
 `PyTorch` · `HuggingFace` (transformers / datasets / accelerate / peft) · `pandas` · `polars` ·
 `sklearn` · `lightgbm` · `catboost` · `langchain` · `gigachain` · `langfuse` · `plotly` · `seaborn`
-`FastAPI` · `Pydantic` · `FastStream` · `RabbitMQ` · `Redis` · `PostgreSQL` · `MySQL`
-`Docker` · `Compose` · `Swarm` · `DVC` · `k8s` · `ArgoCD` · `Helm`
+`FastAPI` · `Pydantic` · `FastStream` · `RabbitMQ` · `Redis` · `PostgreSQL` · `MySQL` · `minio`
+`Docker` · `Compose` · `Swarm` · `Ansible/Semaphore` · `DVC` · `k8s` · `ArgoCD` · `Helm` · `vLLM` · `GPUStack` 
 
 Tools are the least interesting thing on a profile, so that's all they get. I pick them up when a
 problem needs them and I'm happy to learn whatever the next problem needs — especially if it comes
