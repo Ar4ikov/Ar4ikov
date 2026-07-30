@@ -61,8 +61,17 @@ with large-scale infrastructure attached.
 
 ---
 
-![](https://github-readme-stats.vercel.app/api?username=Ar4ikov&hide=contribs&count_private=true&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&hide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ar4ikov&layout=compact&theme=gruvbox&hide_border=truehide_title=true&bg_color=45,17b2e3,1363b6&text_color=ffffff&icon_color=ffffff&title_color=ffffff&font_size=20)
+<!-- The public github-readme-stats.vercel.app instance is paused (503 DEPLOYMENT_PAUSED).
+     If you self-host it, swap these back in and point them at your own deployment. -->
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ar4ikov&theme=github)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ar4ikov&theme=github)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Ar4ikov&theme=github)
+
+![](https://streak-stats.demolab.com/?user=Ar4ikov&hide_border=true&background=ffffff&stroke=e1e4e8&ring=1363b6&fire=17b2e3&currStreakNum=0366d6&sideNums=1363b6&currStreakLabel=0366d6&sideLabels=586069&dates=6a737d)
+
+![](https://github-readme-activity-graph.vercel.app/graph?username=Ar4ikov&bg_color=ffffff&color=1363b6&line=0366d6&point=17b2e3&area=true&area_color=17b2e3&hide_border=true&custom_title=Contribution%20Activity)
 
 ![](https://komarev.com/ghpvc/?username=Ar4ikov)
 
